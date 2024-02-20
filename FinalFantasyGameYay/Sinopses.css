@@ -1,0 +1,68 @@
+html{
+	 background-image: linear-gradient(to bottom, rgba(0, 15, 133, 0.91), rgba(236, 128, 17, 0.75));
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-attachment: fixed;
+	 background-size: cover;
+}
+.header{
+	background-color: rgba(0, 0, 0, 0.50);
+	padding: 20px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 1.5px 1.5px 2px gray;
+	margin: auto;
+}
+.topnav{
+	overflow: hidden;
+	background-color: #000000;
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: #e0dddc;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+.topnav a:hover {
+	background-color: #454443;
+	color: skyblue;
+}
+*{
+	background-color: unset;
+}
+.coluna{
+	padding-left: 22%;
+	padding-right: 22%;
+	float: left;
+	width: 55%;
+	text-align: justify;
+	font-family: arial thin;
+	color: #f0efed;
+}
+.coluna div{
+	text-indent: 20px;
+	padding: 10px 20px 10px;
+	background-color: rgba(17, 18, 18, 0.75);
+	background-size: cover;
+}
+.coluna img{
+	width: 50%;
+	height: 50%;
+}
+.coluna a{
+	color: lightgoldenrodyellow;
+}
+.fundo{
+	background-color: rgba(17, 18, 18, 0.75);
+	background-size: contain;
+}
+.footer{
+	background-color: #000000;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: whitesmoke;
+}
